@@ -1,5 +1,6 @@
 # LLDB-CommonCrypto
-
+Some macOS programs use CommonCrypto to hide something.
+Maybe it is useful to capture argumetents pass to CCCryptorCreate
 
 ## Requirement
 - mac OS
@@ -12,3 +13,6 @@
 4. To activate this project's virtualenv, run the following: `pipenv shell`
 
 
+## Future work
+
+Capture more functions of CommonCrypto
