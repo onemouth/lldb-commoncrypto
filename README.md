@@ -1,6 +1,6 @@
 # LLDB-CommonCrypto
-Some macOS programs use CommonCrypto to hide something.
-Maybe it is useful to capture argumetents pass to CCCryptorCreate
+Some macOS programs use [CommonCrypto](https://opensource.apple.com/source/CommonCrypto/CommonCrypto-36064/CommonCrypto/CommonCryptor.h) to hide something.
+Maybe it is useful to capture argumetents those passed to CCCryptorCreate
 
 ## Requirement
 - mac OS
