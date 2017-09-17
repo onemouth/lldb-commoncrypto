@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7b65eeff4db8f10b787b2253cf0cb89e1be5736ab5bf30ff186041ba849af24b"
+            "sha256": "143118205ff20d450eb1d2348ca8ded2587b0878e59217f02aeb0d89c07fd2e8"
         },
         "pipfile-spec": 1,
         "requires": {},
@@ -12,19 +12,38 @@
             }
         ]
     },
-    "default": {},
+    "default": {
+        "pycrypto": {
+            "version": "==2.6.1"
+        }
+    },
     "develop": {
+        "appnope": {
+            "version": "==0.1.0"
+        },
         "astroid": {
             "version": "==1.5.3"
         },
         "backports.functools-lru-cache": {
             "version": "==1.4"
         },
+        "backports.shutil-get-terminal-size": {
+            "version": "==1.0.0"
+        },
         "configparser": {
             "version": "==3.5.0"
         },
+        "decorator": {
+            "version": "==4.1.2"
+        },
         "enum34": {
             "version": "==1.1.6"
+        },
+        "ipython": {
+            "version": "==5.5.0"
+        },
+        "ipython-genutils": {
+            "version": "==0.2.0"
         },
         "isort": {
             "version": "==4.2.15"
@@ -35,14 +54,44 @@
         "mccabe": {
             "version": "==0.6.1"
         },
+        "pathlib2": {
+            "version": "==2.3.0"
+        },
+        "pexpect": {
+            "version": "==4.2.1"
+        },
+        "pickleshare": {
+            "version": "==0.7.4"
+        },
+        "prompt-toolkit": {
+            "version": "==1.0.15"
+        },
+        "ptyprocess": {
+            "version": "==0.5.2"
+        },
+        "pygments": {
+            "version": "==2.2.0"
+        },
         "pylint": {
             "version": "==1.7.2"
+        },
+        "scandir": {
+            "version": "==1.5"
+        },
+        "simplegeneric": {
+            "version": "==0.8.1"
         },
         "singledispatch": {
             "version": "==3.4.0.3"
         },
         "six": {
             "version": "==1.10.0"
+        },
+        "traitlets": {
+            "version": "==4.3.2"
+        },
+        "wcwidth": {
+            "version": "==0.1.7"
         },
         "wrapt": {
             "version": "==1.10.11"

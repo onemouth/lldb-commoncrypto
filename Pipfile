@@ -4,3 +4,7 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+ipython = "*"
+
+[packages]
+pycrypto = "*"

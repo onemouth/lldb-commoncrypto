@@ -12,4 +12,3 @@
 4. To activate this project's virtualenv, run the following: `pipenv shell`
 
 
-
