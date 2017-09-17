@@ -93,7 +93,7 @@ def main():
         else:
             print("Unknown status")
             print(process.GetState())
-        time.sleep(1)
+        #time.sleep(1)
          
 if __name__ == "__main__":
     main()
